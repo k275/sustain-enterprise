@@ -1,0 +1,80 @@
+.n {
+    background-color: bisque;
+}
+
+.nvb {
+    transition: 1s;
+}
+
+.now {
+    background-color: rgb(255, 204, 0)
+}
+
+.nvb:hover {
+    background-color: rgb(255, 204, 0);
+    color: white;
+}
+
+.k-size {
+    color: white;
+    font-size: 13px;
+}
+
+.k-border {
+    box-shadow: 0px 0px 6px -2px black;
+    border-radius: 10px;
+}
+
+.k-btn-shadow {
+    box-shadow: 0px 0px 5px -1px black;
+}
+
+@media screen and (max-width: 480px) {
+    .chng {
+        height: 250px;
+    }
+    .k-size {
+        font-size: 11px;
+    }
+    .nt {
+        font-size: 11px;
+        letter-spacing: -0.5px;
+    }
+    .ni {
+        width: 25px;
+    }
+}
+
+.ks {
+    display: none;
+}
+
+@media screen and (max-width: 556px) {
+    .nvb {
+        display: none;
+    }
+    .inpt {
+        display: none;
+    }
+    .ks {
+        display: block;
+    }
+    .k-size {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .none {
+        display: none;
+    }
+    .k-text-right {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 767px) {
+    .k-right-on-lg {
+        padding-left: 50px;
+    }
+}
